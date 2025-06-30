@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ziad Nasser | Data Analyst Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png" type="image/png">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container container">
+          <a href="#" class="logo">
+  <div class="zn-logo">
+    <svg viewBox="0 0 200 100" class="zn-svg">
+      <!-- Z Path -->
+      <path class="letter-z" d="M20,20 L80,20 L20,80 L80,80" />
+      <!-- N Path -->
+      <path class="letter-n" d="M100,20 L100,80 L180,20 L180,80" />
+      <!-- <circle class="data-point" cx="30" cy="40" r="3" />
+      <circle class="data-point" cx="50" cy="60" r="3" />
+      <circle class="data-point" cx="120" cy="30" r="3" />
+      <circle class="data-point" cx="150" cy="70" r="3" /> -->
+    </svg>
+  </div>
+</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-sun"></i>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text fade-in">
+                <h1 id="typed-name"></h1>
+                    <h2>Entry Level Data Analyst</h2>
+                    <p> Motivated and detail-oriented Computer Science & Artificial Intelligence graduate with a solid foundation in data analysis. Proficient 
+in Excel and SQL. Eager to apply analytical skills to derive actionable insights and support data-driven decision-making. Seeking an 
+entry-level Data Analyst job to gain real business experience.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn">Contact Me</a>
+                        <a href="resume.pdf" download="Ziad_Nasser_CV.pdf" class="btn btn-outline">Download CV</a>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://github.com/ZiadSharaf" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/ziad-sharaf-a081b626a/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="mailto:zyad.nasser.10@gmail.com"><i class="fas fa-envelope"></i></a>
+                        <a href="tel:+201288499482"><i class="fas fa-phone"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image fade-in delay-1">
+                    <img src="profile.jpeg" alt="Ziad Nasser" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text fade-in delay-1">
+                    <h3>Who am I?</h3>
+                    <p>I'm a passionate Entry Level Data Analyst with a Bachelor's degree in Computer Science from Cairo University. My journey in data analysis has equipped me with skills in Excel, SQL, and Python, allowing me to transform raw data into meaningful insights.</p>
+                    <p>I recently completed the IBM Data Analyst Professional Certificate on Coursera, which provided me with 151 hours of intensive training in data analysis techniques and tools.</p>
+                    <p>When I'm not analyzing data, you can find me watching and analyzing football matches, which helps me sharpen my analytical skills in a different context.</p>
+                </div>
+                <div class="skills fade-in delay-2">
+                    <h3>My Skills</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Excel</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Data Visualization</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>SQL</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>C++</span>
+                            <span>65%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 65%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Python</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 60%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section" id="education">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Education & Courses</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item fade-in delay-1">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2023</div>
+                        <h3>Bachelor's Degree in Computer Science</h3>
+                        <p>Cairo University - Decision Support and Operations Research Department</p>
+                        <p>GPA: 2.46 (Good)</p>
+                        <p>Graduation Project: Non-Alcoholic Fatty Liver Disease</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in delay-2">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2023</div>
+                        <h3>IBM Data Analyst Professional Certificate</h3>
+                        <p>Coursera - 151 hours</p>
+                        <ul>
+                            <li>Introduction to Data Analytics (10 hrs)</li>
+                            <li>Excel Basics for Data Analysis (11 hrs)</li>
+                            <li>Data Visualization and Dashboards with Excel and Cognos (15 hrs)</li>
+                            <li>Python for Data Science, AI & Development (25 hrs)</li>
+                            <li>Python Project for Data Science (8 hrs)</li>
+                            <li>Databases and SQL for Data Science with Python (20 hrs)</li>
+                            <li>Data Analysis with Python (15 hrs)</li>
+                            <li>Data Visualization with Python (20 hrs)</li>
+                            <li>IBM Data Analyst Capstone Project (27 hrs)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in delay-3">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2023</div>
+                        <h3>Data Analysis Foundations</h3>
+                        <p>Egypt FWD - 8 Weeks</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>My Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="card fade-in delay-1">
+                    <img src="1.jpg"alt="Queue Simulation" class="card-img">
+                    <div class="card-content">
+                        <h3>Multi-Channel Queue Simulation System</h3>
+                        <div class="card-tags">
+                            <span class="tag">C++</span>
+                            <span class="tag">OOP</span>
+                            <span class="tag">Python</span>
+                        </div>
+                        <p>Developed a discrete-event simulation system based on OOP principles for a multi-channel queue at a petrol station, analyzing customer behavior and service efficiency.</p>
+                        <a href="https://github.com/ZiadSharaf/Multi-Channel-Queue-Simulation-System-for-a-Petrol-Station-" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+                <div class="card fade-in delay-2">
+                    <img src="2.jpg" alt="Bank System" class="card-img">
+                    <div class="card-content">
+                        <h3>Bank System Database Management</h3>
+                        <div class="card-tags">
+                            <span class="tag">SQL</span>
+                            <span class="tag">C#</span>
+                            <span class="tag">Database</span>
+                        </div>
+                        <p>Designed a conceptual and physical Entity-Relationship Diagram (ERD) and developed a SQL Server database with a C# desktop application interface.</p>
+                        <a href="https://github.com/ZiadSharaf/Bank-System-Database-Management-Project-" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+                <div class="card fade-in delay-3">
+                    <img src=
+                    "3.jpg" alt="Data Analysis" class="card-img">
+                    <div class="card-content">
+                        <h3>Non-Alcoholic Fatty Liver Disease Analysis</h3>
+                        <div class="card-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Data Analysis</span>
+                            <span class="tag">Machine Learning</span>
+                        </div>
+                        <p>Graduation project focused on analyzing factors contributing to non-alcoholic fatty liver disease using data analysis techniques and machine learning models.</p>
+                        <a href="https://github.com/ZiadSharaf/Graduation-Project.git" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Table Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Skills Overview</h2>
+            </div>
+            <table id="skillsTable" class="display fade-in delay-1" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Skills</th>
+                        <th>Proficiency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Technical Skills</td>
+                        <td>Excel</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>Technical Skills</td>
+                        <td>SQL</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>Technical Skills</td>
+                        <td>C++</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>Technical Skills</td>
+                        <td>OOP</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>Soft Skills</td>
+                        <td>Collaboration</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>Soft Skills</td>
+                        <td>Team Work</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>Soft Skills</td>
+                        <td>Leadership</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>Languages</td>
+                        <td>Arabic</td>
+                        <td>Native</td>
+                    </tr>
+                    <tr>
+                        <td>Languages</td>
+                        <td>English</td>
+                        <td>Intermediate</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+    <div class="container">
+        <div class="section-title fade-in">
+            <h2>Get In Touch</h2>
+        </div>
+        <div class="contact-form fade-in delay-1">
+            <form id="contactForm" action="https://formspree.io/f/xwpbaazv" method="POST">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                    <div class="error-message" id="name-error"></div>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+                    <div class="error-message" id="email-error"></div>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+                    <div class="error-message" id="subject-error"></div>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" id="message" name="message" placeholder="Your Message" required></textarea>
+                    <div class="error-message" id="message-error"></div>
+                </div>
+                <div class="form-submit">
+                    <button type="submit" class="btn" id="submitBtn">Send Message</button>
+                </div>
+                <div id="form-status" class="form-status"></div>
+            </form>
+        </div>
+    </div>
+</section>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <p>&copy; 2025 Ziad Nasser. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
