@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ziad Nasser | Data Analyst Portfolio</title>
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png" type="image/png">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <a href="#" class="logo">
+                <div class="zn-logo">
+                    <svg viewBox="0 0 200 100" class="zn-svg">
+                        <path class="letter-z" d="M20,20 L80,20 L20,80 L80,80" />
+                        <path class="letter-n" d="M100,20 L100,80 L180,20 L180,80" />
+                        <!-- Example data points (commented out) -->
+                        <!--
+                        <circle class="data-point" cx="30" cy="40" r="3" />
+                        <circle class="data-point" cx="50" cy="60" r="3" />
+                        <circle class="data-point" cx="120" cy="30" r="3" />
+                        <circle class="data-point" cx="150" cy="70" r="3" />
+                        -->
+                    </svg>
+                </div>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#internships">Internships</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                        <i class="fas fa-sun"></i>
+                    </button>
+                </li>
+            </ul>
+
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text fade-in">
+                    <h1 id="typed-name"></h1>
+                    <h2>Data Analyst</h2>
+                    <p>
+                        Motivated and detail-oriented Computer Science & Artificial Intelligence graduate with a solid
+                        foundation in data analysis.
+                        Proficient in Excel , PowerBi and SQL. Eager to apply analytical skills to derive actionable
+                        insights and
+                        support data-driven decision-making.
+                        Seeking a Data Analyst job to gain real business experience.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn">Contact Me</a>
+                        <a href="resume.pdf" download="Ziad_Nasser_CV.pdf" class="btn btn-outline">Download CV</a>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://github.com/ZiadSharaf" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/ziad-sharaf-a081b626a/" target="_blank"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="mailto:zyad.nasser.10@gmail.com"><i class="fas fa-envelope"></i></a>
+                        <a href="tel:+201288499482"><i class="fas fa-phone"></i></a>
+                        <a href="https://www.novypro.com/profile_about/ziad-nasser" target="_blank"><img
+                                src="novyPro is PowerBI portfolio builder_ and a market place for powerbi and data visualization experts.png"
+                                alt="novypro" width="30" height="30"></a>
+                    </div>
+                </div>
+                <div class="hero-image fade-in delay-1">
+                    <img src="profile.jpeg" alt="Ziad Nasser" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text fade-in delay-1">
+                    <h3>Who am I?</h3>
+                    <p>I'm a passionate Data Analyst with a Bachelor's degree in Computer Science from Cairo University.
+                        My journey in data analysis has equipped me with skills in Excel, Power BI and SQL, allowing me
+                        to transform raw data into meaningful insights.</p>
+                    <p>I'm currently expanding my knowledge at the Information Technology Institute (ITI), where I'm
+                        learning advanced concepts and practical skills that are essential in the data analytics field.
+                    </p>
+                    <p>When I'm not analyzing data, you can find me watching and analyzing football matches, which helps
+                        me sharpen my analytical skills in a different context.</p>
+                </div>
+
+            </div>
+            <section class="section" id="skills">
+                <div class="container">
+                    <div class="section-title fade-in">
+                        <h2>My Skills & Overview</h2>
+                    </div>
+
+                    <div class="skills-wrapper fade-in delay-1">
+
+                        <!-- Technical Skills -->
+                        <h3 class="skills-category">Technical Skills</h3>
+                        <div class="skills-grid">
+                            <div class="skill-card">
+                                <i class="fa-solid fa-file-excel"></i>
+                                <span>Excel</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fa-solid fa-chart-line"></i>
+                                <span>Power BI</span>
+
+                            </div>
+                            <div class="skill-card">
+                                <i class="fa-solid fa-database"></i>
+                                <span>SQL</span>
+                            </div>
+
+                            <div class="skill-card">
+                                <i class="fa-brands fa-python"></i>
+                                <span>Python</span>
+                            </div>
+
+
+                            <div class="skill-card">
+                                <i class="fa-solid fa-code"></i>
+                                <span>C++ / OOP</span>
+                            </div>
+                        </div>
+
+                        <!-- Soft Skills -->
+                        <h3 class="skills-category">Soft Skills</h3>
+                        <div class="skills-grid">
+                            <div class="skill-card">
+                                <i class="fa-solid fa-people-group"></i>
+                                <span>Teamwork</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fa-solid fa-user-plus"></i>
+                                <span>Leadership</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fa-solid fa-comments"></i>
+                                <span>Communication</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fa-solid fa-brain"></i>
+                                <span>Problem Solving</span>
+                            </div>
+                        </div>
+
+                        <!-- Languages -->
+                        <h3 class="skills-category">Languages</h3>
+                        <div class="skills-grid">
+                            <div class="skill-card">
+                                <i class="fa-solid fa-language"></i>
+                                <span>Arabic</span>
+                                <p class="skill-level">Native</p>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fa-solid fa-globe"></i>
+                                <span>English</span>
+                                <p class="skill-level">Professional Working Proficiency</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </section>
+    </div>
+    </section>
+    <!-- Education Section -->
+    <section class="section" id="education">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Education</h2>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item fade-in delay-1">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Oct 2020 - Feb 2025</div>
+                        <h3>Bachelor's Degree in Computer Science</h3>
+                        <p>Cairo University - Decision Support and Operations Research Department</p>
+                        <p>GPA: 2.46</p>
+                        <p>Graduation Project: Non-Alcoholic Fatty Liver Disease <b>(Grade:Excellent)</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="internships">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Internships</h2>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item fade-in delay-1">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">July 2025- Present</div>
+                        <h3>Power BI Development Intensive Code Camp | Information Technology Institute (ITI)</h3>
+                        <p>• Intensive training focused on Business Intelligence, Databases, Power BI, Excel and data
+                            modeling.</p>
+
+                        <p>• Learning advanced dashboard creation, interactive reports, and data analytics methodologies
+                            using real-world business scenarios.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="section" id="courses">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Courses & Certifications</h2>
+            </div>
+
+            <div class="timeline">
+                <!-- Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Sep 2025</div>
+                        <h3>Data Analyst in Power BI </h3>
+                        <p><b>DataCamp - 50 hours</b></p>
+                        <p>• Learned how to clean, model, and visualize data using Power BI to create interactive
+                            dashboards and reports.</p>
+                        <p>• Gained hands-on experience with DAX and Power Query (M language) for calculations and data
+                            transformation.</p>
+                        <p>•Developed the ability to extract actionable insights and support business decisions through
+                            data-driven analysis.</p>
+                        <br>
+                        <a href="https://www.datacamp.com/statement-of-accomplishment/track/00a90a956f53507e66186e9194759b712aac862a?raw=1"
+                            target="_blank" class="btn btn-outline">View Certificate</a>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Aug 2023</div>
+                        <h3>IBM Data Analyst Professional Certificate</h3>
+                        <p><b>Coursera - 151 hours</b></p>
+                        <p>• Gained practical experience with Excel, SQL, Python and Jupyter Notebooks. </p>
+                        <p>• Applied data manipulation and wrangling techniques to clean and prepare datasets.</p>
+                        <p>• Conducted exploratory data analysis (EDA) to identify patterns and insights. </p>
+                        <p>• Designed and developed interactive dashboards for reporting and decision-making. </p>
+                        <br>
+                        <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/DNE8VQHX35JM"
+                            target="_blank" class="btn btn-outline">View Certificate</a>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Aug 2022</div>
+                        <h3>Data Analysis Foundations</h3>
+                        <p><b>Egypt FWD - 8 Weeks</b></p>
+                        <p>• Learned core concepts of data analysis, statistics, and visualization techniques. </p>
+                        <p>• Gained hands-on experience using Excel and Python to analyze real-world datasets.
+                        </p>
+                        <br>
+                        <a href="https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/b1c61414-c4c4-4ca5-a14b-67ecd0cc8232.pdf"
+                            target="_blank" class="btn btn-outline">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>My Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="card fade-in delay-1">
+                    <img src="Booking_Overview.jpg" alt="Hotel" class="card-img">
+                    <div class="card-content">
+                        <h3>Hotel Reservation Performance Dashboard
+                        </h3>
+                        <div class="card-tags">
+                            <span class="tag">Power Bi</span>
+                        </div>
+                        <p>Cleaned and analyzed a hotel bookings dataset containing 119,390 records. Identified patterns
+                            in cancellations and guest behavior, converted data into a star schema, and built
+                            interactive dashboards to visualize performance and key trends.</p>
+                        <div class="card-buttons">
+                            <a href="#" class="btn btn-outline open-modal" data-index="0">View Project</a> <a
+                                href="https://project.novypro.com/QxFgsy" target="_blank"
+                                class="btn btn-primary">Explore Dashboard</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card fade-in delay-2">
+                    <img src="MainDashboard.png" alt="Car Sales" class="card-img">
+                    <div class="card-content">
+                        <h3> Car Sales Project</h3>
+                        <div class="card-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Excel</span>
+                        </div>
+                        <p>cleaned and analyzed a car sales dataset containing 30 manufacturers and 157 models.
+                            Predicted
+                            missing values using machine learning in Python and built interactive dashboards using Excel
+                            to uncover insights for stakeholders.</p>
+                        <!-- <a href="https://github.com/ZiadSharaf/Car-Sales-Project" class="btn btn-outline">View
+                            Project</a> -->
+                        <a href="#" class="btn btn-outline open-modal" data-index="1">View Project</a>
+                    </div>
+                </div>
+
+                <div class="card fade-in delay-3">
+                    <img src="2.jpg" alt="Bank System" class="card-img">
+                    <div class="card-content">
+                        <h3>Bank System Database Management</h3>
+                        <div class="card-tags">
+                            <span class="tag">SQL</span>
+                            <span class="tag">C#</span>
+                            <span class="tag">Database</span>
+                        </div>
+                        <p>Designed a conceptual and physical Entity-Relationship Diagram (ERD) and developed a SQL
+                            Server database with a C# desktop application interface.</p>
+                        <a href="https://github.com/ZiadSharaf/Bank-System-Database-Management-Project-" target="_blank"
+                            class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+
+                <div class="card fade-in delay-4">
+                    <img src="3.jpg" alt="Data Analysis" class="card-img">
+                    <div class="card-content">
+                        <h3>Non-Alcoholic Fatty Liver Disease Analysis</h3>
+                        <div class="card-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Data Analysis</span>
+                            <span class="tag">Machine Learning</span>
+                        </div>
+                        <p>Graduation project focused on analyzing factors contributing to non-alcoholic fatty liver
+                            disease using data analysis techniques and machine learning models.</p>
+                        <a href="https://github.com/ZiadSharaf/Graduation-Project" target="_blank"
+                            class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+                <div class="card fade-in delay-5">
+                    <img src="1.jpg" alt="Queue Simulation" class="card-img">
+                    <div class="card-content">
+                        <h3>Multi-Channel Queue Simulation System</h3>
+                        <div class="card-tags">
+                            <span class="tag">C++</span>
+                            <span class="tag">OOP</span>
+                            <span class="tag">Python</span>
+                        </div>
+                        <p>Developed a discrete-event simulation system based on OOP principles for a multi-channel
+                            queue at a petrol station, analyzing customer behavior and service efficiency.</p>
+                        <a href="https://github.com/ZiadSharaf/Multi-Channel-Queue-Simulation-System-for-a-Petrol-Station-"
+                            target="_blank" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+
+            <!-- Left: Big media + thumbnails -->
+            <div class="modal-left">
+                <div class="main-media">
+                    <div class="slides"></div>
+                </div>
+                <div class="thumbnails"></div>
+
+                <!-- Navigation buttons -->
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
+            </div>
+
+            <!-- Right: Description + GitHub -->
+            <div class="modal-right">
+                <h2 id="modalTitle">Project Title</h2>
+                <p id="modalDescription">Project description...</p>
+                <a id="modalGithub" class="btn btn-outline" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills Table Section -->
+    <!-- <section class="section">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Skills Overview</h2>
+            </div>
+            <table id="skillsTable" class="display fade-in delay-1" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Skills</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Technical Skills</td>
+                        <td>PowerBi</td>
+                       
+                    </tr>
+                    <tr>
+                        <td>Technical Skills</td>
+                        <td>Python</td>
+                       
+                    </tr>
+                    <tr>
+                        <td>Technical Skills</td>
+                        <td>Excel</td>
+                       
+                    </tr>
+                    <tr>
+                        <td>Technical Skills</td>
+                        <td>SQL</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Technical Skills</td>
+                        <td>C++</td>
+                       
+                    </tr>
+                    <tr>
+                        <td>Technical Skills</td>
+                        <td>OOP</td>
+                       
+                    </tr>
+                    <tr>
+                        <td>Soft Skills</td>
+                        <td>Collaboration</td>
+                       
+                    </tr>
+                    <tr>
+                        <td>Soft Skills</td>
+                        <td>Team Work</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Soft Skills</td>
+                        <td>Leadership</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Languages</td>
+                        <td>Arabic</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Languages</td>
+                        <td>English</td>
+                       
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section> -->
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Get In Touch</h2>
+            </div>
+            <div class="contact-form fade-in delay-1">
+                <form id="contactForm" action="https://formspree.io/f/xwpbaazv" method="POST">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                        <div class="error-message" id="name-error"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Your Email"
+                            required>
+                        <div class="error-message" id="email-error"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject"
+                            required>
+                        <div class="error-message" id="subject-error"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="message" name="message" placeholder="Your Message"
+                            required></textarea>
+                        <div class="error-message" id="message-error"></div>
+                    </div>
+                    <div class="form-submit">
+                        <button type="submit" class="btn" id="submitBtn">Send Message</button>
+                    </div>
+                    <div id="form-status" class="form-status"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <p>&copy; 2025 Ziad Nasser. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
